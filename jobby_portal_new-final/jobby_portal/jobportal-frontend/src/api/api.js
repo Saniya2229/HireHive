@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Vite: use import.meta.env (not process.env)
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://jobportal-backend-rn7n.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE,
